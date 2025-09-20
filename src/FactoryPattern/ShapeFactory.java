@@ -10,7 +10,7 @@ public class ShapeFactory {
             case "Square":
                 return new Square();
             default:
-                return null;
+                return null; // testing
         }
     }
 }
